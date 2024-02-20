@@ -185,6 +185,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.whatsapp.com"));
             startActivity(intent);
         }
+        //hey there
         else if(msgs.contains("search")){
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=" + msgs.replace("search"," ")));
             startActivity(intent);
